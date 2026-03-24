@@ -22,12 +22,12 @@
 
 
 
--User:사용자
--Input(Commands,Temperatures):입력(명령어, 기온)
--Outputs(Recommended Outfit Combinations):출력(추천된 옷 조합)
--CLI OOTD & Wardrobe Manager(System):CLI기반 오늘의 코디 및 옷장 관리매니저(시스템)
--Writes(Updated Clothing List):쓰기(업데이트된 옷 목록)
--Reads(Wardrobe Data .txt):읽기(옷장 데이터.txt)
+-User:사용자<br>
+-Input(Commands,Temperatures):입력(명령어, 기온)<br>
+-Outputs(Recommended Outfit Combinations):출력(추천된 옷 조합)<br>
+-CLI OOTD & Wardrobe Manager(System):CLI기반 오늘의 코디 및 옷장 관리매니저(시스템)<br>
+-Writes(Updated Clothing List):쓰기(업데이트된 옷 목록)<br>
+-Reads(Wardrobe Data .txt):읽기(옷장 데이터.txt)<br>
 -Local File System:로컬 파일 시스템
 
 ## 3. Use case list
