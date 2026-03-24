@@ -18,24 +18,8 @@
 ---
 
 ## 2. System context diagram
+<img width="395" height="343" alt="캡처" src="https://github.com/user-attachments/assets/23c496d2-51c8-4982-a687-f79710857c20" />
 
-
-                       [  User  ]
-                     |            ^
-  {Inputs(Commands,  |            | {Outputs(Recommended 
-   Temperatures)}    |            |  Outfit Combinations)}
-                     V            |
-   ==================================================
-   |                                                |
-   |         CLI OOTD & Wardrobe Manager            |
-   |                  (System)                      |
-   |                                                |
-   ==================================================
-                     |            ^
-  {Writes(Updated    |            | {(Reads(Wardrobe 
-   Clothing List)}   |            |  Data .txt)}
-                     V            |
-                  [ Local File System ]
 
 -User:사용자
 -Input(Commands,Temperatures):입력(명령어, 기온)
