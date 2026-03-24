@@ -1,1 +1,0 @@
-# sw-source-project
