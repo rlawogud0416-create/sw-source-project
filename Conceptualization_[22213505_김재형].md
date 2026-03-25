@@ -7,7 +7,7 @@
 ## 1. Business purpose
 
 **project background**
-<img width="189" height="267" alt="image" src="https://github.com/user-attachments/assets/c1e17695-9922-4bdc-a611-608c96b6f0ba" />
+                       <img width="189" height="267" alt="image" src="https://github.com/user-attachments/assets/c1e17695-9922-4bdc-a611-608c96b6f0ba" />
 
 
 
