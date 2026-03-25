@@ -9,11 +9,8 @@
 **project background**
 
 <div align="center">
-  <img src="<img width="189" height="267" alt="image" src="https://github.com/user-attachments/assets/c1e17695-9922-4bdc-a611-608c96b6f0ba" />.png" width="700">
-  <br>
-  <sup>그림 1. 시스템 컨텍스트 다이어그램</sup>
+  <img src="<img width="189" height="267" alt="image" src="https://github.com/user-attachments/assets/c1e17695-9922-4bdc-a611-608c96b6f0ba" />.png" width="600">
 </div>
-
 
 우리 생활속에 필요한 것을 말하라고 하면 대부분 의식주를 말한다.그중 의에 해당하는 옷을 우리는 고민하느라 시간을 많이 할애한다.특히 환절기나 기온변화가 심한 날에는 일기예보의 온도 숫자만 보고 옷차림을 결정했다가 춥거나 더워서 낭패를 보는 경우가 많다.바쁜 아침 출근 시간에 옷장을 뒤적이며 날씨에 맞는 상의와 하의, 아우터를 조합하는 과정은 불필요한 시간 낭비와 결정 피로를 유발한다.
 그래서 '내가 가진 옷들을 종류와 두께별로 텍스트 파일에 분류해 두고, 오늘 외출할 시간의 기온만 입력하면 적절한 코디 조합을 바로 출력해 주는 가벼운 프로그램이 있다면 아침 준비 시간을 크게 단축시킬수 있지 않을까?'라는 생각에 본 프로젝트를 기획하게 되었다.
