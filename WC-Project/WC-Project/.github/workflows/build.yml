@@ -1,0 +1,38 @@
+name: Build WC.exe
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup MSVC
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+        arch: x64
+
+    - name: Build WC.exe with static linking
+      shell: cmd
+      run: |
+        cd src
+        cl /std:c++17 /EHsc /MT /O2 /utf-8 /Fe:..\WC.exe *.cpp
+
+    - name: Check build result
+      shell: cmd
+      run: |
+        dir WC.exe
+        echo Build successful!
+
+    - name: Upload WC.exe artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: WC-Windows-exe
+        path: WC.exe
+        retention-days: 90
